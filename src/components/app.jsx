@@ -37,7 +37,7 @@ class App extends Component {
    return (
     <div>
       <div className="left-scene">
-        <SearchBar />
+        <SearchBar searchFunction={this.search}/>
         <div className="selescted-gif">
           <Gif id="xT9IgDEI1iZyb2wqo8" />
         </div>
